@@ -1,7 +1,7 @@
 import './globals.css'
 import 'react-tooltip/dist/react-tooltip.css'
 import { Archivo, Inter, Source_Code_Pro } from 'next/font/google'
-import { Providers } from './providers'
+import { Providers } from '@/components/providers'
 
 const archivo = Archivo({
   weight: ['400', '600'],

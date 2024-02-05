@@ -4,6 +4,7 @@ import { useRouter, usePathname } from 'next/navigation'
 import Image from '@/components/Image'
 import Icon from '@/components/Icon'
 import ToggleTheme from './ToggleTheme'
+import { ThemeToggle } from '../theme-toggle'
 
 import { chats } from '@/constants/navigation'
 
@@ -81,7 +82,9 @@ const LeftSidebar = ({ onClick, visible }: LeftSidebarProps) => {
           </div>
         </Link>
       </div>
-      <ToggleTheme visible={visible} />
+      <div className="absolute left-4 bottom-4.5">
+        <ThemeToggle />
+      </div>
     </div>
   )
 }

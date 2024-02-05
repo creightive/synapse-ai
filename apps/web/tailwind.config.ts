@@ -1,7 +1,7 @@
 import tailwindPreset from '@repo/theme/tailwind.preset'
 
 export default {
-  darkMode: 'class',
+  darkMode: ['class', '[data-theme="dark"]'],
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
