@@ -1,0 +1,17 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      // "outputs" are defined in Workspace Configurations: https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces
+      "dependsOn": ["^build"]
+    },
+    "lint": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "clean": {
+      "cache": false
+    }
+  }
+}

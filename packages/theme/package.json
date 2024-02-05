@@ -1,0 +1,18 @@
+{
+  "name": "@repo/theme",
+  "main": "tailwind.preset.ts",
+  "module": "tailwind.preset.ts",
+  "types": "tailwind.preset.ts",
+  "version": "0.0.0",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
