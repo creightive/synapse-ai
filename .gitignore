@@ -17,3 +17,4 @@ storybook-static/
 *.iml
 out
 gen
+.vercel
